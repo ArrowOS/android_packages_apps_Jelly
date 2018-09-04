@@ -704,7 +704,7 @@ public class MainActivity extends WebViewExtActivity implements
         intent.setAction(Intent.ACTION_MAIN);
 
         Bitmap icon = mUrlIcon == null ?
-                BitmapFactory.decodeResource(getResources(), R.mipmap.ic_launcher) : mUrlIcon;
+                BitmapFactory.decodeResource(getResources(), R.mipmap.ic_browser) : mUrlIcon;
         Bitmap launcherIcon = UiUtils.getShortcutIcon(icon, getThemeColorWithFallback());
 
         String title = mWebView.getTitle();
